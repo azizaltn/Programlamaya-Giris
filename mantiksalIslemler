@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class mantiksalIslemler {
+  public static void main(String [] args) {
+    Scanner klavye = new Scanner(System.in);
+    
+    System.out.print("Sayı giriniz = ");
+    int sayi1 = Integer.parseInt(klavye.nextLine());
+    
+    System.out.print("Sayı giriniz = ");
+    int sayi2 = Integer.parseInt(klavye.nextLine());
+    
+    System.out.println(sayi1 == sayi2 ? "Sayılar Eşittir" : "Sayılar Eşit Değildir");
+    System.out.println(sayi1 == sayi2 ? "Sayılar Aynıdır : "Sayılar Farklıdır");
+    System.out.println(sayi1 < sayi2 ? "İlk sayı küçüktür : "İkinci sayı küçük değildir");
+    System.out.println(sayi1 <= sayi2 ? "İlk sayı küçük eşittir" : "İkinci sayı küçük eşittir");
+  }
+}
