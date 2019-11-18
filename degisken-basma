@@ -1,0 +1,6 @@
+public class DegiskenBasma {
+  public static void main(String [] args) {
+    int degiskenIsmi = 20;
+    System.out.printf("%d%n", degiskenIsmi);
+  }
+}
