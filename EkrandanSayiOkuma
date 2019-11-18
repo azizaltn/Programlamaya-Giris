@@ -1,0 +1,10 @@
+public class EkrandanSayiOkuma {
+  public static void main(String [] args) {
+    java.util.Scanner klavye = new java.util.Scanner(System.in);
+    
+    System.out.print("Sayı giriniz = ");
+    int val = Integer.parseInt(klavye.nextLine());
+    
+    System.out.printf("Girdiginiz Deger : %d%n", val);
+  }
+}
