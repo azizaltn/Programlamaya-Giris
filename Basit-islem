@@ -1,0 +1,25 @@
+public class BasitIslemler {
+  public static void main(String [] args) {
+    java.util.Scanner klavye = new java.util.Scanner(System.in);
+    
+    int toplam, carpma, bolme, fark, kalan;
+    
+    System.out.print("Bir sayı giriniz = ");
+    int sayi1 = Integer.parseInt(klavye.nextLine());
+    
+    System.out.print("Bir sayı giriniz = ");
+    int sayi2 = Integer.parseInt(klavye.nextLine());
+    
+    toplam = sayi1 + sayi2;
+    carpma = sayi1 * sayi2;
+    bolme = sayi1 / sayi2;
+    fark = sayi1 - sayi2;
+    kalan = sayi1 % sayi2;
+    
+    System.out.printf("Toplam = %d%n", toplam);
+    System.out.printf("Carpma = %d%n", carpma);
+    System.out.printf("Bolme = %d%n", bolme);
+    System.out.printf("Fark = %d%n", fark);
+    System.out.printf("Kalan = %d%n", kalan);
+  }
+}
