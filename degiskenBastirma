@@ -1,0 +1,12 @@
+public class degiskenBastirma {
+
+  public static void main(String [] args) {
+  
+    int a;
+    a = 10;
+    
+    System.out.println("Değişkenin Değeri : " + a);
+  
+  }
+
+}
